@@ -1,8 +1,7 @@
 <div style="text-align:center;" align="center">
 
 ## Revert YouTube Search Suggestions Size
-Reverts the height of YouTube Search Suggestions to the previous value after the recent redesign (from 52px back to 35px).  
-[As seen on userstyles.world](https://userstyles.world/style/20987/revert-youtube-search-suggestions-size)  
+Reverts the height of YouTube Search Suggestions to the previous value after the recent redesign (from 52px back to 35px). [Also available on userstyles.world](https://userstyles.world/style/20987/revert-youtube-search-suggestions-size)  
 
 <br>
 
