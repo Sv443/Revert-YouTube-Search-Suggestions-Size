@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Revert YouTube Search Suggestions Size
+@description    Reverts the height of YouTube Search Suggestions to the previous value after the recent redesign (from 52px back to 35px)
+@namespace      https://github.com/Sv443
+@version        1.1.0
+@author         Sv443
+@license        MIT
+@homepageURL    https://github.com/Sv443/Revert-YouTube-Search-Suggestions-Size
+@supportURL     https://github.com/Sv443/Revert-YouTube-Search-Suggestions-Size/issues
+@var            text item-height "Search suggestion item height (e.g. 35px)" 35px
+@preprocessor   stylus
+==/UserStyle== */
+
+/*
+Changelog:
+- 1.1.0:
+  - Added support for changing search suggestion item height via @var directive
+- 1.0.1:
+  - Fixed search suggestion item height to match the previous value (35px instead of 32px)
+- 1.0.0:
+  - Initial release - set search suggestion item height to 32px
+*/
+
+@-moz-document domain("youtube.com") {
+    .ytSuggestionComponentSuggestion {
+        height: item-height !important;
+    }
+}
